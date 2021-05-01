@@ -1,0 +1,842 @@
+/*start nav*/
+nav{
+    background-color: rgb(236, 236, 238)  !important;
+    font-size: 20px;
+    
+   
+}
+.navbar a{
+    color: rgb(167, 167, 167)  !important;
+}
+
+nav    .btn1{
+    color: rgb(185, 179, 179)   !important;
+ font-size: 16px;
+ font-weight: 700;
+ background-color:rgb(4, 136, 180);
+ border: 2px    solid   white;
+ border-radius:15px ;
+ -webkit-border-radius:15px ;
+ -moz-border-radius:15px ;
+ -ms-border-radius:15px ;
+ -o-border-radius:15px ;
+ padding: 20px 40px;
+}
+
+header  .btn2{
+    font-size: 16px;
+    font-weight: 700;
+    background-color:transparent;
+    border: 2px    solid   white;
+    border-radius:15px ;
+    padding: 10px 30px;
+    margin: 5px 0px 15px 0px;
+    transition:all  1s;
+    -webkit-transition:all  1s;
+    -moz-transition:all  1s;
+    -ms-transition:all  1s;
+    -o-transition:all  1s;
+}
+header  .btn2:hover{
+    color:rgb(0, 59, 78)  !important ;
+    background-color: white;
+}
+/*end nav*/
+
+
+
+/*start section doctors*/
+#doctors{
+    margin-top: 50px;
+}
+.doctors-h1{
+    text-align: center;
+   margin-bottom: 5px;
+    font-size: 60px;
+}
+.firstdiv{
+  height: 500px;
+
+}
+.doctor-img{
+    height: 500px;
+    width: 1517px;
+  
+}
+.definition{
+   width: 500px;
+   padding: 40px;
+   margin-top: -500px;
+    position: absolute;
+}
+    
+.definition .doctor-h2{
+    width: 200px;
+background-color:rgba(28, 226, 206,0.2);
+color: white;
+font-size: 35px;
+}
+.definition .doctor-h3{
+    width: 400px;
+    background-color:rgba(59, 133, 125, 0.2);
+    color: white;
+    font-size: 20px;
+
+}
+.definition .doctor-parag{
+    width: 500px;
+   font-size: 20px;
+    color:white;
+    background-color:rgba(36, 165, 152, 0.4);
+    margin-left: 0px;
+}
+.doctors{
+    overflow: hidden;
+    font-family:arial;
+    text-align: center;
+    font-weight:bold;
+    margin:40px;
+  }
+  .doctors .getevery{
+    width:30%;
+    overflow:hidden;
+    background-color:#a1c8df;
+    display: inline-block;
+    font-size: 17px;
+    font-weight:bold;
+    height:auto;
+    border-radius: 15px;
+  }
+  .doctors .getevery .son a{
+      padding: 15x;
+      padding-top: 10px;
+  }
+  .doctors  .getevery >img {
+      width:100%;
+  }
+  .doctors  .getevery >h3 {
+    padding-bottom: 10px;
+}
+.infodoctor{
+    overflow: hidden;
+    font-family:arial;
+    text-align: center;
+    font-weight:bold;
+    margin:40px;
+
+}
+.infodoctor .Dr{
+border-radius: 15px;
+    width:30%;
+    overflow:hidden;
+    background-color:#a1c8df;
+    display: inline-block;
+    font-size: 17px;
+    font-weight:bold;
+    height:auto;
+}
+.infodoctor .Dr >img{
+    width: 100%;
+}
+/*end section doctors*/
+
+
+
+
+/*start section nurse*/
+#nurse
+{
+    background-color: #D7D9E8;
+    margin-top: 40px;
+}
+.nurse-text{
+    text-align:center;
+    font-size: 60px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container .box{
+ 
+  
+    height: 500px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 30px;
+ 
+}
+.container .box:before{
+    content: '';
+   
+    top: 0;
+  
+    width: 400px;
+    height: 100%;
+    border:10px solid #424949;
+    filter: url(#wavy);
+    z-index: 70;
+}
+
+.container .box .content{
+    position: absolute;
+    padding: 20px;
+    text-align:center;
+    transition: 0.5s;
+}
+svg{
+    width: 0;
+    height: 0;
+}
+.nurse{
+    z-index: 69;
+    height: 250px;
+    width: 395;
+    position: relative;
+    top: 39;
+    right: 0;
+    border-radius: 20px;
+    left: 10px;
+}
+
+.info-nurse{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: -42px;
+    left: 30px;
+    font-family: "Calibri";
+}
+
+h1{
+    text-align:center;
+    margin-left: 40px;
+    color: #424949;
+    margin-bottom: auto;
+}
+p{
+    color: #424949;
+    font-size: 18px;
+    margin-left: 40px;
+    
+}
+/*end section nurse*/
+
+
+/*start section patient*/
+#patients{
+    width: 100%;
+    font-family: tahoma;
+    margin-top: 40px;
+}
+#patients .patients-h1{
+    font-size: 60px;
+    text-align: center;
+    margin-left: 0px;
+}
+section .paient-h3{
+    font-size: 20px;
+    color: #141284;
+    text-align: center;
+    padding-top: 15px;
+}
+.patient-cancer{
+max-width: 450px;
+color: #1e0c3c;
+margin: 0 auto 10px;
+}
+.aptient-parag{
+    max-width: 450px;
+    color: #1e0c3c;
+}
+.container{
+    display: flex;
+    justify-items: center;
+}
+.patient{
+    background-color: #a1c8df;
+    width: 30%;
+    margin: 15px;
+    border-radius: 25px
+}
+section .img-patient{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 15px 89px;
+}
+section .container label{
+    display: block;
+    margin: 5px;
+}
+section .container .aptient-parag{
+    margin: 5px;
+}
+section div .button-patient{
+    background-color: #00f;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: #eee;
+    margin: 15px 99px;
+}
+section div .button-patient:hover{
+    background-color: #0a94a0;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    margin: 20px 75px;
+    transition: all 2s;
+}
+section .more{
+    background-color: #00f;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color: #eee;
+    margin:20px 42%;
+}
+section .more:hover{
+    background-color: #0a94a0;
+    width: 220px;
+    height: 65px;
+    font-size: 20px;
+    border-radius: 50%;
+    margin:20px 47%;
+    transition: all 2s;
+}
+/*end section patient*/
+
+
+
+
+/*header of the section*/
+#pharmathy .head1{
+    color: #537496;
+   margin-bottom: 20px;
+     text-align: center;
+    font-size: 50px;
+    margin-top: 0px;
+}
+/*header 2 of all section*/
+#pharmathy .head2{
+    color: #537496;
+     margin-left: 150px;
+     font-size: 30px;
+     margin-top: 30px;
+      margin-bottom: auto;
+ }
+
+
+/*section pharmathy*/
+#pharmathy{
+  margin-top: 30px;
+}
+ /* the line(hr)*/
+ #pharmathy .hr1{
+    width: 50px;
+   
+    height: 3px;
+    background-color: #537496;
+    margin-left: 150px;
+}
+/*first div*/
+#pharmathy .start
+{
+   position: relative;
+}
+.start-img{
+    height: 450px;
+    width: 1517px;
+    
+}
+/*overlay of first div*/
+#pharmathy .start .overlay{
+    background-color: rgba(58, 178, 233, 0.6);
+    height: 450px;
+ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/* the duv in div overlay*/
+#pharmathy .start .overlay .welcome{
+    width:700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+   background-color:  white;
+   margin-top: 160px;
+   margin-left: 50px;
+}
+#pharmathy .start .overlay .welcome .imge{
+    height: 200px;
+    width: 200px;
+}
+
+#pharmathy .start .overlay .welcome .parag1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px; 
+}
+#pharmathy .start .overlay .welcome .head4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 2;
+    font-size: 40px;
+   margin-top: 20px;
+   margin-left: 50px;
+   color: #42a5f5;
+  margin-bottom: 0px;
+ }
+#pharmathy .start .overlay .welcome .button1{
+    background-color: #42a5f5  ;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+/*end first div*/
+
+/* start second div (slider)*/
+#pharmathy .all{
+    background-color:#f4f4fa;
+    height: 290px;
+    width: 900px;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+/* img in the slider*/
+#pharmathy .all .slider ul li .img-slider{
+    width: 250px;
+    height: 250px;
+    padding-left: 20px;
+}
+/*slider*/
+#pharmathy .all .slider{
+    width:770px;
+     position: absolute;
+     margin-left: 60px;
+     margin-top: 20px; 
+   overflow:hidden; 
+}
+/* ul that contain the img*/
+#pharmathy .all .slider ul{
+    width:3800px;
+    list-style: none;
+  padding: 0px;
+   position: relative;
+   animation: slidding 14s ease-in infinite ;
+}
+/*list in ul*/
+#pharmathy .all .slider ul li{
+float: left;
+}
+#pharmathy .all .slider ul:hover{
+    animation-play-state: paused;
+}
+/*animaton of the slider*/
+@keyframes slidding
+{
+    5%,10%{left: 0}
+    15%,30%{left: -760px;}
+    35%,50%{left: -1520px;}
+    55%,70%{left: -2280px;}
+     75%,90%{left: -3040px;}
+}
+/*end slider*/
+
+/*start third div (treatment)*/
+#pharmathy .treatment{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+   margin-left: 150px;
+   margin-top: 40px;
+
+}
+#pharmathy .treatment .parent{
+    position: relative;
+  
+     height: 400px;
+}
+#pharmathy .treatment .parent .thetreatment{
+    
+    background: #537496;
+    width: 300px;
+    height: 300px;
+   position: absolute;
+   z-index: 6;
+}
+#pharmathy .treatment .parent .choose{
+background: #D7D9E8;
+width: 300px;
+height: 300px;
+position: absolute;
+top: 60px;
+left: 20px;
+}
+
+#pharmathy .treatment .parent .thetreatment .type-of-cancer
+{
+    background: #D7D9E8;
+    width: 230px;
+    margin-top: 30px;
+    height: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    color: #394962;
+    font-size: 27px;
+
+}
+#pharmathy .treatment .parent .thetreatment .chmical{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color:white;
+}
+#pharmathy .treatment .parent .choose .button2{
+    width: 90px;
+    background-color: #D7D9E8;
+    height: 40px;
+    margin-top: 250px;
+    margin-left: 20px;
+    border: dashed #537496;
+    border-radius: 50px;
+}
+/*end div3 (treatment_*/
+
+/*start last div*/
+#pharmathy .last{
+   margin-top: 30px;
+  position: relative;
+   background-color:#D7D9E8  ;
+     text-align: center;
+   height: 300px;
+   
+   box-shadow: 0 2px 5px rgb(0, 0, 0 ,0.4);
+}
+#pharmathy .last .div1-in-last{
+    position: absolute;
+   
+   display: flex;
+    margin-top: 50px;
+    width: 500px;
+     margin-left: 500px;
+    font-size: 20px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0 ,0.7);
+}
+#pharmathy .last .div1-in-last .last1{
+    background-color:#537496;
+    width: 250px;
+    height: 200px;
+    color: #D7D9E8 ;
+ 
+}
+#pharmathy .last .div1-in-last .last2{
+    background-color:#D7D9E8 ;
+    width: 250px;
+    height: 200px;
+    color: #394962;
+}
+#pharmathy .last .div1-in-last .head3{
+    color: black;
+}
+
+#pharmathy .last .div1-in-last .last2 .span1{
+    color: #297acc;
+}
+/*end last div*/
+
+
+
+/*start section donations*/
+#Donations{
+    margin-top: 50px;
+}
+.Donations{
+    display: flex;
+    height: 735px;
+}
+.Donations-text{
+    text-align:center ;
+}
+/** payment methods */
+.text-info-fawry{
+    color:#FDE7F0 !important;
+    font-size: 16px;
+    margin-left: 0px;
+}
+.payment{
+    width: 600px;
+    height: 670px;
+    background-color:#424949;
+    padding-top:1px ;
+    border-radius: 20px;
+}
+.text-pay{
+    text-align: center;
+    margin-left:5px ;
+}
+.text-pay:hover{
+    cursor: pointer;
+    font-size: 1.6em;
+}
+/** fawry */
+.immediately{
+    width: 580px;
+    height: 100px;
+    background-color: #424949 ;
+    display: flex;
+    padding:10px ;
+    border-radius: 20px;
+}
+.immediately:hover{
+    border: 0.5px solid #F2F4F4 ;
+}
+.btn{
+    font-size: 35px;
+    display: inline !important;
+    text-align: center !important;
+    width: 150px !important;
+    height: 50px !important;
+    color: #FDE7F0 !important;
+    background-color: #424949 !important;
+    border-color: #424949 !important;
+    border-radius: 30px !important;
+    outline: none !important;
+    float: right !important;
+    border: 0 !important;
+    font-family: "Calibri" !important;
+  }
+  .fawry{
+      width: 100px;
+      height: 100px;
+  }
+  .btn-posithin{
+      text-decoration: none;
+      position: relative;
+      left:300px;
+      top:25px
+  }
+button:hover{
+      cursor: pointer;
+      font-weight: bold;
+  }
+  .fawry:hover{
+    width: 105px;
+    height: 105px;
+  }
+  /** sada */
+.sadad{
+    width: 100px;
+    height: 50px;
+}
+.sadad:hover{
+    width: 105px;
+    height: 55;
+}
+.img-position-sadad{
+    position: relative;
+    top: 25px;
+}
+/** masary */
+.masary{
+    width: 130px;
+    height: 65px;
+}
+.masary:hover{
+    width: 135px;
+    height: 70px;
+}
+.btn-posithin-masary{
+    text-decoration: none;
+      position: relative;
+      left:280px;
+      top:25px
+}
+.img-position-masary{
+    position: relative;
+    top: 20px;
+}
+/** Bee*/
+.bee{
+    width: 130px;
+    height: 65px;
+}
+.img-position-bee{
+    position: relative;
+    top: 20px;
+}
+.btn-posithin-bee{
+    text-decoration: none;
+      position: relative;
+      left:280px;
+      top:25px
+}
+/**information about fawry*/
+.immediately-info{
+    border-radius: 20px;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    background-color: #424949;
+    box-shadow: 5px 5px 10px #424949;
+}
+.fawry-info-img{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+.position-fawry-info{
+    position: relative;
+    left: 345px;
+    top: 13px;
+    cursor: default;
+}
+.info-payment{
+    position: relative;
+    top: 100px;
+    padding: 10px;
+    border-radius: 25px;
+    width: 700px;
+    height: 400px;
+    background-color: #424949;
+    margin-left: 140px;
+}
+/*end section donations*/
+
+
+/* start form */
+.proo{
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+}
+.form{
+    background-color: rgba(253, 231, 240 ,.1);
+    display: flex;
+    padding-left:200px;
+}
+.form-lable{
+
+    display: block;
+    color: #424949;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.textbox{
+    margin-bottom: 30px;
+    border-bottom: 1px solid  #424949;
+    width: 250px;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.heigh{
+    height: 100px;
+}
+.Message{
+    float: right;
+}
+.fd-form{
+    width: 600px;
+}
+.flex-name{
+    display: flex;
+}
+.margin-div{
+    margin-left: 20px;
+}
+.ft-size{
+    font-size: 20px !important;
+}
+.center-btn{
+    position: relative;
+    left: -240px;
+}
+/* enf of form */
+
+/* start footer*/
+footer{
+    background-color:#353330;
+    color: rgb(160, 160, 160);
+    margin-top: 40px;
+  
+}
+.footer-logo{
+    width: 35%;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.footer-logo:hover{
+    border: 2px solid    rgb(160, 160, 160);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.footer-icons{
+    font-size: 25px;
+    
+}
+.footer-icons   i{
+    border: 1px solid   ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.face:hover {
+    background-color:rgb(66 ,103 ,178) ;
+    color: white;
+}
+.twitter:hover {
+    background-color:rgb(29 ,161, 242) ;
+    color: white;
+}
+.linked:hover {
+    background-color:rgb(40,103,178) ;
+    color: white;
+}
+
+.google:hover {
+    background-color:rgb(242,166,12) ;
+    color: white;
+}
+.gmail:hover {
+    background-color:rgb(199,22,16) ;
+    color: white;
+}
+/* end footer*/
+
+
